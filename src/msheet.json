@@ -1,0 +1,14 @@
+{
+   "type": "sheetboard",
+   "name": "user",
+   "columns": [
+       "sysid",
+       "login"
+       "password"
+       "name"
+       "soname"
+       "fathername"
+       "email"
+       "address"
+   ]
+}
