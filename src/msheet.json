@@ -1,14 +1,24 @@
-{
-   "type": "sheetboard",
-   "name": "user",
-   "columns": [
-       "sysid",
-       "login"
-       "password"
-       "name"
-       "soname"
-       "fathername"
-       "email"
-       "address"
-   ]
+{   
+	"db_connection": {
+       "dbHost": 	"127.0.0.1",
+       "dataBase": 	"msheet",
+       "dbLogin": 	"usr",
+       "dbPasswd": 	"password"
+	},
+	
+	"user":{
+		"type": "sheetboard",
+		"name": "user",
+		"columns": [
+			"sysid",
+			"login",
+			"password",
+			"name",
+			"soname",
+			"fathername",
+			"email",
+			"address"
+		]
+
+	}
 }
