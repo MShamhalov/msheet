@@ -1,0 +1,47 @@
+{   
+	"db_connection": {
+       "dbHost": 	"127.0.0.1",
+       "dataBase": 	"msheet",
+       "dbLogin": 	"usr",
+       "dbPasswd": 	"password"
+	},
+	
+	"user": {
+		"type": "sheetboard",
+		"name": "user",
+		"table": "sys_user",
+		"views": {
+			"default": [
+				"id",
+				"Name",
+				"Soname",
+				"Fathername"
+			],
+			
+			"portal": [
+				"Name",
+				"Soname",
+				"Fathername"
+			]
+		}
+	},
+	
+	"department": {
+		"type": "sheetboard",
+		"name": "department",
+		"views": {
+			"default": [
+				"id",
+				"department",
+				"parent",
+				"address"
+			],
+			
+			"portal": [
+				"department",
+				"parent",
+				"address"
+			]
+		}
+	}
+}
