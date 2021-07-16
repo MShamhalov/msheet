@@ -1,11 +1,4 @@
 {   
-	"db_connection": {
-       "dbHost": 	"127.0.0.1",
-       "dataBase": 	"msheet",
-       "dbLogin": 	"usr",
-       "dbPasswd": 	"password"
-	},
-	
 	"user": {
 		"type": "sheetboard",
 		"name": "user",
@@ -13,15 +6,18 @@
 		"views": {
 			"default": [
 				"id",
-				"Name",
-				"Soname",
-				"Fathername"
+				"soname",
+				"name",
+				"fathername",
+				"email"
 			],
 			
 			"portal": [
-				"Name",
-				"Soname",
-				"Fathername"
+				"soname",
+				"name",
+				"fathername",
+				"email",
+				"id"
 			]
 		}
 	},
